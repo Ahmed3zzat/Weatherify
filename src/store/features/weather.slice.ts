@@ -8,7 +8,7 @@ export const getWeather = createAsyncThunk(
   "weatherSlice/getWeather",
   async (values: { country: string }) => {
     const options = {
-      url: `http://api.weatherapi.com/v1/forecast.json?key=31d0916effee4ec78a314510252403&q=${values.country}&days=3`,
+      url: `https://api.weatherapi.com/v1/forecast.json?key=31d0916effee4ec78a314510252403&q=${values.country}&days=3`,
       method: "GET",
     };
     const { data } = await axios.request(options);
