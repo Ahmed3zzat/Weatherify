@@ -4,24 +4,34 @@
 
 A sleek weather app built with React and OpenWeather API.  
 
-![Weatherify Banner](https://via.placeholder.com/800x200?text=Weatherify+🌤️)
+![Weatherify Banner](https://via.placeholder.com/800x200/2D3748/FFFFFF?text=Weatherify+☀️🌧️)  
+*(Replace with your actual banner image)*
 
 ---
 
 ## ✨ Features  
-- 🌦️ **Real-time Weather**: Fetch current weather for any city.  
-- 📍 **Location Search**: Auto-complete and geolocation support.  
-- 📊 **5-Day Forecast**: Visualize temperature trends.  
-- 🌙 **Dark/Light Mode**: Toggle for user preference.  
+- 🌦️ **Real-time Weather**: Get current conditions for any city worldwide.  
+- 📍 **Smart Search**: Auto-complete with geolocation support.  
+- 📊 **5-Day Forecast**: Interactive temperature and condition charts.  
+- 🌙 **Dark/Light Mode**: Eye-friendly theme toggling.  
+- 📱 **Responsive Design**: Works on mobile, tablet, and desktop.  
 
 ---
 
 ## 🎥 Demo  
-![Weatherify Demo](https://via.placeholder.com/600x400?text=Demo+Screen+Recording)  
+![Weatherify Demo](demo.gif)  
+*(Replace with a real screen recording or GIF)*  
 
 ---
 
-## 🛠️ Installation  
+## 🚀 Quick Start  
+
+### Prerequisites  
+- Node.js (v16+)  
+- npm (v8+)  
+
+### Installation  
 1. Clone the repository:  
    ```bash
    git clone https://github.com/Ahmed3zzat/Weatherify.git
+   cd Weatherify
